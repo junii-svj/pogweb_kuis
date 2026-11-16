@@ -22,8 +22,8 @@
                 </ul>
             </div>
             <div class="nav-right">
-                <a href="{{ url('/profil') }}" class="btn-nav-outline">Tentang Saya</a>
-                <a href="{{ url('/galeri') }}" class="btn-nav-solid">Lihat Karya</a>
+                <a href="https://www.instagram.com/aristyyyo_?mdxt=MWpzY3JrZG1tb2R1dA==" class="btn-nav-outline">Contact Saya</a>
+                <a href="https://github.com/junii-svj" class="btn-nav-solid">GitHub</a>
             </div>
         </div>
     </header>
