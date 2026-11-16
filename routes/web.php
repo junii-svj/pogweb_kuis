@@ -8,10 +8,10 @@ Route::get('/', function () {
         'judulHalaman' => 'Homepage - Portofolio',
         'judulUtama' => 'Portofolio Pribadi',
         'subJudul' => 'I Komang Juni Aristiyo',
-        'deskripsi' => 'Mahasiswa Informatika & AI Enthusiast. Membangun solusi digital modern dengan arsitektur yang bersih dan presisi.',
+        'deskripsi' => 'Mahasiswa Informatika dengan konsentrasi AI yang ingin mengubah masa depan hidupnya.',
         'sorotan' => [
             'Pengembangan Web sesuai kepercayaan dan keyakinan costomers',
-            'menggunakan Kecerdasan Buatan & Algoritma',
+            'Kecerdasan Buatan & Algoritma',
             'Desain Antarmuka Minimalis'
         ]
     ];
@@ -22,12 +22,14 @@ Route::get('/', function () {
 Route::get('/profil', function () {
     $biodata = [
         "Nama Lengkap" => "I Komang Juni Aristiyo",
+        "Tanggal Lahir" => "19 Juni 2007",
+        "Email" => "arisj9137@gmail.com",
         "Asal Daerah" => "Bali, Indonesia",
         "Program Studi" => "Informatika - Artificial Intelligence",
-        "Institusi" => "INSTIKI Denpasar",
-        "Hobi" => "Coding, Sketching, Investasi"
+        "Kampus" => "INSTIKI Denpasar",
+        "Hobi" => "Gaming, Menggambar, Investasi (cacing-caing, naga-naga)"
     ];
-    $keahlian = ["PHP & Laravel", "Python", "HTML & CSS", "MySQL", "JavaScript"];
+    $keahlian = ["sabar", "baik", "tidak sombong", "ganteng (kata emak)"];
     
     return view('profil', compact('biodata', 'keahlian'));
 });
@@ -43,7 +45,7 @@ Route::get('/galeri', function () {
         [
             "file" => "img/instiki.webp",
             "judul" => "My Campus",
-            "deskripsi" => "My place to learn about IT more and more."
+            "deskripsi" => "learn about IT more and more to be a billionaire."
         ],
         [
             "file" => "img/gemini.webp",

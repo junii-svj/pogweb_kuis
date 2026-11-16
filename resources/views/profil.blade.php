@@ -18,7 +18,7 @@
         </table>
 
         <div class="skills-wrapper">
-            <h3>Keahlian & Teknologi</h3>
+            <h3>Keahlian</h3>
             <div class="skill-tags">
                 @foreach ($keahlian as $skill)
                     <span class="tag">{{ $skill }}</span>
